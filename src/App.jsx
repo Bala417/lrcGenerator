@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/lrcGenerator/">
       <Routes>
         <Route element={<Header />}>
           <Route path="/" element={<Home />} />
